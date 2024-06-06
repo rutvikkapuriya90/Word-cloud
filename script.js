@@ -100,7 +100,7 @@ const words = [
  {'text': 'શહેર', 'size': 2},
  {'text': 'જિલ્લા', 'size': 2},
  {'text': 'લોકો', 'size': 2},
- {'text': 'વલસાડ', 'size': 2}];
+ {'text': 'વલસાડ', 'size': 2}]
 const layout = d3.layout.cloud()
     .size([800, 600])
     .words(words.map(d => ({ text: d.text, size: d.size })))
